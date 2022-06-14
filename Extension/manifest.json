@@ -1,0 +1,20 @@
+{
+    "name": "ValidMath Answers",
+    "description": "Get Answers! ",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons":{
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    }
+    
+
+}
